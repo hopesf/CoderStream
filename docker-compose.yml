@@ -2,7 +2,7 @@ version: "3.9"
 services:
 # rtmp sunucusu için port tanımlamaları ve volume tanımlamaları
   rtmp:
-    build: ./nginx-server
+    build: ./rtmp
     ports:
       - "1935:1935"
       - "80:8080"
