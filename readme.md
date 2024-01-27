@@ -8,10 +8,10 @@ Bu proje ffmpeg veya obs üzerinden docker ile oluşturacağınız kendi sunucun
 Env Kullanmak istemedim, çünkü birbirine bağlı bir yapı ve tek bir dosyada bulunuyor bunun için `Genel Bilgiler` bölümünden ortam değişkenlerine ulaşabilirsiniz. Pull request göndermekten çekinmeyin.
 
 ## Genel Bilgiler
-Yayın Anahtarı: `test?key=supersecret` // yayın 
-Rtmp Sunucusu: rtmp://localhost:1935/live`
-Frontend Url: http://localhost:3000
-Backend Url: http://localhost:8000 veya http://auth_server:8000
+- Yayın Anahtarı: `test?key=supersecret`
+- Rtmp Sunucusu: rtmp://localhost:1935/live`
+- Frontend Url: http://localhost:3000
+- Backend Url: http://localhost:8000 veya http://auth_server:8000
 
 
 ## Neyi Neden Yaptım?

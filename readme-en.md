@@ -7,10 +7,10 @@ This project allows you to broadcast over ffmpeg or obs to your own server that 
 I didn't want to use Env, because it's an interconnected structure and it's in a single file, so you can find the environment variables in the `General Information` section. Feel free to send a pull request.
 
 ## General Information
-Publication Key: `test?key=supersecret` // broadcast 
-Rtmp Server: rtmp://localhost:1935/live`
-Frontend Url: http://localhost:3000
-Backend Url: http://localhost:8000 or http://auth_server:8000
+- Publication Key: `test?key=supersecret`
+- Rtmp Server: rtmp://localhost:1935/live`
+- Frontend Url: http://localhost:3000
+- Backend Url: http://localhost:8000 or http://auth_server:8000
 
 
 ## What did I do and why?
