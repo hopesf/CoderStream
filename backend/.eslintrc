@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["@arastaitc/eslint-config-base-typescript"],
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off"
+  }
+}

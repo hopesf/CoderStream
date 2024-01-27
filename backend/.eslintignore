@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+.github
+.env.development
+.env.production
+__test__
