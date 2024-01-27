@@ -9,9 +9,9 @@ Env Kullanmak istemedim, çünkü birbirine bağlı bir yapı ve tek bir dosyada
 
 ## Genel Bilgiler
 - Yayın Anahtarı: `test?key=supersecret`
-- Rtmp Sunucusu: rtmp://localhost:1935/live`
-- Frontend Url: http://localhost:3000
-- Backend Url: http://localhost:8000 veya http://auth_server:8000
+- Rtmp Sunucusu: `rtmp://localhost:1935/live`
+- Frontend Url: `http://localhost:3000`
+- Backend Url: `http://localhost:8000` veya `http://auth_server:8000`
 
 
 ## Neyi Neden Yaptım?

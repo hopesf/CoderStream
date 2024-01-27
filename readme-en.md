@@ -8,9 +8,9 @@ I didn't want to use Env, because it's an interconnected structure and it's in a
 
 ## General Information
 - Publication Key: `test?key=supersecret`
-- Rtmp Server: rtmp://localhost:1935/live`
-- Frontend Url: http://localhost:3000
-- Backend Url: http://localhost:8000 or http://auth_server:8000
+- Rtmp Server: `rtmp://localhost:1935/live`
+- Frontend Url: `http://localhost:3000`
+- Backend Url: `http://localhost:8000` or `http://auth_server:8000`
 
 
 ## What did I do and why?
