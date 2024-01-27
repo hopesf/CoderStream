@@ -1,5 +1,6 @@
 import { siteConfig } from "@/config/site"
 import { ModeToggle } from "@/components/ModeToggle"
+import VideoPlayer from "@/components/VideoPlayer"
 
 export default function Home() {
   return (
@@ -12,12 +13,7 @@ export default function Home() {
 
       {/* video content */}
       <div className="flex size-full flex-col items-center justify-center">
-        <video width="1400" height="768" controls>
-          <source
-            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <VideoPlayer />
       </div>
     </section>
   )

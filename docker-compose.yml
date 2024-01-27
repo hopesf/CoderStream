@@ -1,14 +1,23 @@
 version: "3.9"
 services:
+# rtmp sunucusu için port tanımlamaları ve volume tanımlamaları
   rtmp:
-    build: ./backend
+    build: ./nginx-server
     ports:
-      - "8080:8080"
-    container_name: coder_stream_service
+      - "1935:1935"
+      - "80:8080"
+    container_name: rtmp_server
     volumes:
-      - ./backend/data:/tmp/hls
-  nextjs:
+      - ./rtmp/data:/tmp/hls
+
+# yayın anahtarı kontrolü için auth sunucusu
+  auth:
+    build: ./backend
+    container_name: auth_server
+
+# nextjs üzerinde yayını izlemek için front sunucusu
+  front:
     build: ./front
+    container_name: front_server
     ports:
-      - "3000:80"
-    container_name: coder_stream_ui
+      - "3000:3000"
